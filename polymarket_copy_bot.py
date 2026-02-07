@@ -7,13 +7,13 @@ from py_clob_client.order_builder.constants import BUY
 #####################
 ### CONFIGURATION ###
 #####################
-TARGET_ADDRESS = "0x0000000000000000000000000000000000000000"
+TARGET_ADDRESS = "0x388537259dc9e693c1c9b96fdf07a63f6b7aca77"
 
-FUNDER_ADDRESS = "your-wallet-address"
-PRIVATE_KEY = "your-private-key"
+FUNDER_ADDRESS = "0x57c909268fa6e2bbc9214c2d67729ab43f4c59e1"
+PRIVATE_KEY = "0xa0678a5504efe989adc8b3eefff39e30eedbdd717b05ed89d0fcf6a36b104eed"
 SIGNATURE_TYPE = 1  # 0=EOA (Wallets), 1=Email/Magic, 2=Browser proxy
 
-BET_AMOUNT = 2.0            # Amount in $ to spend on each copied bet
+BET_AMOUNT = 500000.00            # Amount in $ to spend on each copied bet
 
 DRY_RUN = True              # True = preview only, False = execute bets
 # DRY_RUN = False
